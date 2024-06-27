@@ -21,3 +21,7 @@ nav {
     padding: 20px;
   }
   
+  /* styles.css */
+.spacer {
+  flex: 1 1 auto;
+}
