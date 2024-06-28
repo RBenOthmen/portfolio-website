@@ -1,0 +1,6 @@
+ 
+  /* Optional: Add some spacing between images */
+  .image-item + .image-item {
+    margin-top: 8px;
+  }
+  
