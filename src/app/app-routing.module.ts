@@ -1,3 +1,4 @@
+import { AchievementsComponent } from './achievements/achievements.component';
 import { InterrestsComponent } from './interrests/interrests.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'projects', component: ProjectsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'interrests', component: InterrestsComponent },
+  { path: 'achievements', component: AchievementsComponent },
 ];
 
 @NgModule({

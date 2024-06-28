@@ -17,6 +17,7 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { InterrestsComponent } from './interrests/interrests.component';
+import { AchievementsComponent } from './achievements/achievements.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { InterrestsComponent } from './interrests/interrests.component';
     FooterComponent,
     HeaderComponent,
     InterrestsComponent,
+    AchievementsComponent,
   ],
   imports: [
     BrowserModule,
