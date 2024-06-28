@@ -16,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { InterrestsComponent } from './interrests/interrests.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { HeaderComponent } from './shared/header/header.component';
     ContactComponent,
     FooterComponent,
     HeaderComponent,
+    InterrestsComponent,
   ],
   imports: [
     BrowserModule,
