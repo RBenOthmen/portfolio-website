@@ -7,13 +7,13 @@
         <span class="ml-3 text-xl">Rami Ben Othmen</span>
       </a>
       <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-        <a routerLink="/" class="mr-5 hover:text-white">Home</a>
-        <a routerLink="/about" class="mr-5 hover:text-white">About</a>
-        <a routerLink="/skills" class="mr-5 hover:text-white">Skills</a>
-        <a routerLink="/projects" class="mr-5 hover:text-white">Projects</a>
-        <a routerLink="/achievements" class="mr-5 hover:text-white">Achievements</a>
-        <a routerLink="/interrests" class="mr-5 hover:text-white">Interrests</a>
-        <a routerLink="/contact" class="mr-5 hover:text-white">Contact</a>
+        <a routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" class="mr-5 hover:text-white">Home</a>
+        <a routerLink="/about" routerLinkActive="active-link" class="mr-5 hover:text-white">About</a>
+        <a routerLink="/skills" routerLinkActive="active-link" class="mr-5 hover:text-white">Skills</a>
+        <a routerLink="/projects" routerLinkActive="active-link" class="mr-5 hover:text-white">Projects</a>
+        <a routerLink="/achievements" routerLinkActive="active-link" class="mr-5 hover:text-white">Achievements</a>
+        <a routerLink="/interrests" routerLinkActive="active-link" class="mr-5 hover:text-white">Interrests</a>
+        <a routerLink="/contact" routerLinkActive="active-link" class="mr-5 hover:text-white">Contact</a>
       </nav>
       <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">CV / Resume
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">

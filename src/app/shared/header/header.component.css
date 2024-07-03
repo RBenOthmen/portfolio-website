@@ -1,0 +1,9 @@
+.active-link {
+    @apply text-indigo-500;
+    color: yellow;
+  }
+  
+
+.section-link {
+    color: blanchedalmond;
+}
