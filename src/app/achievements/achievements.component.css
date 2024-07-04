@@ -1,0 +1,10 @@
+/* styles.css */
+
+/* Animation for the image zoom */
+.img-zoom {
+    transition: transform 0.3s ease;
+}
+
+.img-zoom:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+}
