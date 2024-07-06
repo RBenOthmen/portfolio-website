@@ -1,0 +1,20 @@
+.list-none {
+    list-style-type: none;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-start {
+    align-items: flex-start;
+  }
+  
+  .text-indigo-500 {
+    color: #5c6ac4; /* Adjust color as needed */
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem; /* Adjust spacing between bullet and text */
+  }
+  
