@@ -38,5 +38,36 @@ body, html {
   }
 
   .container {
-    padding: 40px;
+    padding: 80px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.text-content {
+  flex: 2;
+}
+
+.image-content {
+  flex: 1;
+  text-align: right;
+}
+
+.profile-image {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.heading-margin {
+  margin-bottom: 20px; /* Adjust the space as needed */
+}
+
+.big-heading {
+  font-size: 2rem; /* Adjust the size as needed */
+  font-weight: bold; /* Optional: Makes the text bold */
 }
