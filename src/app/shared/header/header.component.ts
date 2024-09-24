@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
 
   navigateToLink() {
-    window.open('https://drive.google.com/file/d/12JhQMB4mFew9Mld_FGUxxI9XQUTBj0jv/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1Bqx7DMta6h0f1pcwqycfhCCo_vJHmIB-/view?usp=sharing', '_blank');
   }
   
 }
