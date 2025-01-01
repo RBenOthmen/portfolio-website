@@ -13,6 +13,7 @@ body, html {
   height: 100%;
   overflow: hidden;
   background: radial-gradient(circle, #000428, #004e92); /* Gradient for night sky effect */
+  min-height: 150vh;
 }
 .stars {
   position: absolute;
@@ -49,3 +50,4 @@ body, html {
 .interest-card:hover {
   transform: scale(1.1); /* Zoom in by 10% on hover */
 }
+
