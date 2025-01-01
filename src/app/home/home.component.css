@@ -80,3 +80,8 @@ font-weight: bold; /* Optional: Makes the text bold */
     font-size: 1.2rem; /* Adjust heading size for even smaller screens */
   }
 }
+
+.image-container {
+  text-align: center; /* Center the image horizontally */
+  margin-bottom: 1rem; /* Add some spacing below the image */
+}
